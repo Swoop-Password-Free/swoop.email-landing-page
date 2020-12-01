@@ -1,16 +1,38 @@
+a {
+  color: #777777;
+}
+
+a:hover {
+  color: #13B47E;
+  text-decoration: none;
+}
+/* 
 .bullet {
   font-size: .6rem;
   vertical-align: middle; 
   color: #13B47E;
+} */
+
+.custom-list-item {
+  border: none!important;
+  text-align: center;
 }
 
 .footer {
   position: fixed;
+  width: 100%;
   bottom: 0;
-  right: 2%;
+  left: 0;
   color: #777777;
+  font-size: 15px;
 }
 
 .logo {
   width: 75%;
+}
+
+@media only screen and (max-width: 576px) {
+  h2 {
+    font-size: 1.5rem;
+  }
 }
