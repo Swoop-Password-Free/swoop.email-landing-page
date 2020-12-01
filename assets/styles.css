@@ -1,0 +1,12 @@
+.bullet {
+  font-size: .6rem;
+  vertical-align: middle; 
+  color: #13B47E;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 2%;
+  color: #777777;
+}
